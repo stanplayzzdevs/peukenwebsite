@@ -1,0 +1,67 @@
+body {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topbar {
+    background-color: rgb(223, 127, 38);
+    padding: 1%;
+}
+
+.topbar_name {
+    top: 5%;
+    margin-left: 5%;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.login {
+    top: 5%;
+    margin-right: 5%;
+    float: right;
+    font-size: 2em;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    color: black;
+}
+
+.login:hover {
+    color: brown;
+}
+
+.main {
+}
+.amount {
+    padding-top: 10%;
+    margin: auto;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.cashout {
+    padding-top: 5%;
+    margin: auto;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+.cashout a {
+    font-size: 2em;
+    font-weight: 600;
+    background-color: green;
+    border: 3px solid darkgreen;
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+    transition-duration: .2s;
+}
+
+.cashout a:hover {
+    background-color: rgb(2, 113, 2);
+    border: 3px solid rgb(1, 86, 1);
+    
+}

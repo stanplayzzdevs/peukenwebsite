@@ -11,7 +11,7 @@ body {
 .topbar_name {
     top: 5%;
     margin-left: 5%;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: 600;
 }
 
@@ -19,7 +19,7 @@ body {
     top: 5%;
     margin-right: 5%;
     float: right;
-    font-size: 2em;
+    font-size: 2vw;
     transition-duration: 0.2s;
     text-decoration: none;
     color: black;
@@ -29,8 +29,6 @@ body {
     color: brown;
 }
 
-.main {
-}
 .amount {
     padding-top: 10%;
     margin: auto;
@@ -63,5 +61,4 @@ body {
 .cashout a:hover {
     background-color: rgb(2, 113, 2);
     border: 3px solid rgb(1, 86, 1);
-    
 }
